@@ -2,7 +2,7 @@
 
 > 古代书童辅佐公子读书科考，今有 AI 书童伴你求知精进。
 
-一个运行在 [Claude Code](https://docs.anthropic.com/en/docs/claude-code) 上的学习陪伴 Skill，将 AI 助手变成你的私人书童——管理书架、伴读答疑、模拟考试、代笔文书、收集情报，全部数据存储在本地 Obsidian Vault 中。
+一个运行在 [Claude Code](https://docs.anthropic.com/en/docs/claude-code) 上的学习陪伴 Skill，将 AI 助手变成你的私人书童——管理书架、伴读答疑、模拟考试、代笔文书、收集情报，全部数据存储在本地 Obsidian 中。
 
 ## 核心理念
 
@@ -72,10 +72,10 @@
 
 ## Obsidian 集成
 
-所有数据存储在 Obsidian Vault 中，可在 Obsidian 中直接查看和编辑：
+所有数据存储在 Obsidian 中，可在 Obsidian 中直接查看和编辑：
 
 ```
-05-shutong/
+shutong/
 ├── books/              # 读书笔记（每本书一个 .md 文件）
 ├── notes/              # 知识卡片、概念笔记、复习追踪
 ├── exam-prep/          # 备考计划、复习资料、速记卡
@@ -105,7 +105,7 @@ cp -r shutong/ ~/.claude/skills/shutong/
 用户：考我 分布式系统
 书童：[从已有笔记提取知识点] → [按难度出题] → [评估回答] → [记录薄弱点]
 
-用户：模拟面试 AI产品经理
+用户：模拟面试 后端开发
 书童：[开始面试] → [自我介绍] → [追问2-3轮] → [综合评价]
 
 用户：考前冲刺
@@ -129,7 +129,7 @@ cp -r shutong/ ~/.claude/skills/shutong/
 ## 技术细节
 
 - **运行环境**：Claude Code CLI
-- **数据存储**：本地 Obsidian Vault（Markdown + JSON）
+- **数据存储**：本地 Obsidian（Markdown + JSON）
 - **外部依赖**：WebSearch（资源搜索）、CronCreate（复习提醒）
 - **笔记格式**：YAML frontmatter + Markdown + Obsidian 双链
 - **语言**：中文为主
