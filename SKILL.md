@@ -41,7 +41,7 @@ tags:
 ### 存储根目录
 
 ```
-VAULT_ROOT = /Users/a1/Documents/vibe_projects/personal-os/obsidian_vault/05-shutong/
+VAULT_ROOT = users/obsidian_vault/05-shutong/
 ```
 
 ### 目录结构
